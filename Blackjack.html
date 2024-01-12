@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlackJack</title>
+    <link rel="stylesheet" href="./Blackjack.css">
+    <link rel="shortcut icon" href="./images/blackjacklogo.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/58b718cb71.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+</head>
+<body>
+<main><div id="hello">
+  <img src="./images/black.jpg" alt="">
+  <h1>Black Jack</h1>
+  <h3 id="pcards">Players card :</h3>
+  <h3 id="ptotal">Players total :</h3>
+  <h3 id="ctotal">Computer total :</h3>
+  <button id="startbtn" onclick="start()">Start Game</button>
+  <div id="btn">
+    <button onclick="newCard()">Draw</button>
+    <button  onclick="computerNewCard()">Stay</button>
+  </div>
+  <p id="message">PLease click start to play the game.</p>
+</div>
+</main>
+  <script src="./Blackjack.js"></script>  
+</body>
+</html>
